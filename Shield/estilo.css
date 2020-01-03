@@ -11,7 +11,7 @@
 }
 
 #container{
-    margin: 150px;  
+    margin: 150px;
 }
 
 #circle1{
@@ -76,4 +76,29 @@
 
 body{
     background-color: rgb(45, 45, 93);
+}
+
+*{
+    margin: 0;
+}
+
+.menu ul{
+    line-height: 80px;
+    background: linear-gradient(to bottom, rgb(7, 1, 78), rgb(45, 45, 93));
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    padding: 2px 30px;
+    color: blanchedalmond;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: rgb(100, 126, 197);
 }
