@@ -11,7 +11,13 @@
 }
 
 #container{
-    margin: 150px;
+    margin: 100px;
+}
+
+#texto{
+    color: rgb(6, 2, 39);
+    text-align: center;
+    margin: 0 0 30px 0;
 }
 
 #circle1{
@@ -88,6 +94,10 @@ body{
     list-style: none;
 }
 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .menu ul li{
     display: inline;
 }
@@ -97,6 +107,7 @@ body{
     color: blanchedalmond;
     display: inline-block;
     text-decoration: none;
+    text-shadow: 3px 3px 3px black;
 }
 
 .menu ul li a:hover{
