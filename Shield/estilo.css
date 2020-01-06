@@ -88,7 +88,7 @@ body{
     margin: 0;
 }
 
-.menu ul{
+#menu ul{
     line-height: 80px;
     background: linear-gradient(to bottom, rgb(7, 1, 78), rgb(45, 45, 93));
     list-style: none;
@@ -98,11 +98,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu ul li{
+#menu ul li{
     display: inline;
 }
 
-.menu ul li a{
+#menu ul li a{
     padding: 2px 30px;
     color: blanchedalmond;
     display: inline-block;
@@ -110,6 +110,16 @@ h1{
     text-shadow: 3px 3px 3px black;
 }
 
-.menu ul li a:hover{
+#menu ul li a:hover{
     color: rgb(115, 144, 223);
+}
+
+#rd{
+    background: linear-gradient(to top, rgb(7, 1, 78), rgb(45, 45, 93));
+    height: 119px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(23, 133, 177);
+    text-shadow: 3px 3px 3px black;
+    line-height: 100px;
 }
