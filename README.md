@@ -1,3 +1,3 @@
-<h1>Artes com css | Escudo do Capitão América </h1>
+<h1>CSS ART</h1>
 	
-<img src="IMG/Inicial.PNG">
+<p>This repository was created for css study only.</p>
